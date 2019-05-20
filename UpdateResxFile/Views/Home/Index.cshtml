@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<UpdateResxFile.Models.ResourceModel>;
+
+@using (Html.BeginForm("Update", "Home", FormMethod.Post))
+{
+    <br />
+    <div class="row">
+        <input class="btn-primary col-xs-4 col-xs-offset-4" type="submit" name="Update" value="Update" />
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-xs-offset-1 col-xs-10" style="height:500px;overflow:auto;background-color:azure">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <div class="row">
+                    @Html.HiddenFor(it => it[i].Key)
+                    <div class="col-xs-6">
+                        @Html.DisplayFor(it => it[i].SourceStr)
+                    </div>
+                    <div class="col-xs-6">
+                        @Html.TextBoxFor(it => it[i].DestinationStr, new { style = "min-width: 100%!important;" })
+                    </div>
+                    <hr />
+                </div>
+            }
+        </div>
+    </div>
+    
+    
+}
+
+

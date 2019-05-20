@@ -1,0 +1,1515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="NoUserCode" xml:space="preserve">
+    <value>No User Code Entered</value>
+  </data>
+  <data name="GamingTables" xml:space="preserve">
+    <value>Gaming Tables</value>
+  </data>
+  <data name="ServerAddressNotSet" xml:space="preserve">
+    <value>Server Address Not Set, Please Set The Address and Restart The Application</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="InitialisingDevice" xml:space="preserve">
+    <value>Initialising the device</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Try Again</value>
+  </data>
+  <data name="Diagnose" xml:space="preserve">
+    <value>Diagnose</value>
+  </data>
+  <data name="TableManagement" xml:space="preserve">
+    <value>Table Management</value>
+  </data>
+  <data name="Suspended" xml:space="preserve">
+    <value>Suspended</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="NotAllEmployeesLoggedOn" xml:space="preserve">
+    <value>Not All Employees Logged On</value>
+  </data>
+  <data name="UserHasNoPermissionToUseTheApp" xml:space="preserve">
+    <value>User has no permissions setup to use the application</value>
+  </data>
+  <data name="InformationCenter" xml:space="preserve">
+    <value>Information Centre</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="WIFIConnected" xml:space="preserve">
+    <value>WIFI Connected</value>
+  </data>
+  <data name="GateWayConnected" xml:space="preserve">
+    <value>Gateway Connected</value>
+  </data>
+  <data name="Peripherals" xml:space="preserve">
+    <value>PERIPHERALS</value>
+  </data>
+  <data name="Printer" xml:space="preserve">
+    <value>Printer</value>
+  </data>
+  <data name="CardReader" xml:space="preserve">
+    <value>Card Reader</value>
+  </data>
+  <data name="Chipper" xml:space="preserve">
+    <value>Chipper</value>
+  </data>
+  <data name="BetSpotReader" xml:space="preserve">
+    <value>Bet Spot Reader</value>
+  </data>
+  <data name="RouletteWheel" xml:space="preserve">
+    <value>Roulette Wheel</value>
+  </data>
+  <data name="RFID_Reader" xml:space="preserve">
+    <value>RFID Reader</value>
+  </data>
+  <data name="CardShoe" xml:space="preserve">
+    <value>Card Shoe</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="TableInterface" xml:space="preserve">
+    <value>Table Interface</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="ResetSavedPositionLocations" xml:space="preserve">
+    <value>Reset Saved Position Locations</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>Connected to</value>
+  </data>
+  <data name="NoCardReader" xml:space="preserve">
+    <value>No Card Reader</value>
+  </data>
+  <data name="SettingsAreNull" xml:space="preserve">
+    <value>Settings Are Null</value>
+  </data>
+  <data name="NoSlipPrinterConfigured" xml:space="preserve">
+    <value>No Slip Printer Configured</value>
+  </data>
+  <data name="NotUsed" xml:space="preserve">
+    <value>Not used</value>
+  </data>
+  <data name="SavedPositionsReset" xml:space="preserve">
+    <value>Saved position locations have been reset</value>
+  </data>
+  <data name="ResetsTheSavedLocationsOfPlayerPositions" xml:space="preserve">
+    <value>Resets the saved locations of player positions on this device</value>
+  </data>
+  <data name="NoUserCurrentlyLoggedIn" xml:space="preserve">
+    <value>No user currently logged in</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="TableOptions" xml:space="preserve">
+    <value>Table Options</value>
+  </data>
+  <data name="OpenTheTable" xml:space="preserve">
+    <value>Open The Table</value>
+  </data>
+  <data name="PrintLastClosingSlip" xml:space="preserve">
+    <value>Print Last Closing Slip</value>
+  </data>
+  <data name="CouldNotFindTablePermissionMenu" xml:space="preserve">
+    <value>Could not find table permission menu</value>
+  </data>
+  <data name="EnterAuthorisationUserCode" xml:space="preserve">
+    <value>Enter Authorisation User Code</value>
+  </data>
+  <data name="NoValueEntered" xml:space="preserve">
+    <value>No value entered</value>
+  </data>
+  <data name="UserHasNoPermissionForThisAction" xml:space="preserve">
+    <value>That user does not have permission for this action</value>
+  </data>
+  <data name="NoOpenTableAccessOrPrintSlip" xml:space="preserve">
+    <value>User has no access to Open Table and print slip is not configured</value>
+  </data>
+  <data name="LogoutUserRemoveRole" xml:space="preserve">
+    <value>Logout User : Remove Role</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SelectRoleToLogon" xml:space="preserve">
+    <value>Please select a role to logon with</value>
+  </data>
+  <data name="SelectRoleToAssign" xml:space="preserve">
+    <value>Please select a role to assign</value>
+  </data>
+  <data name="AssignRoleFailed" xml:space="preserve">
+    <value>Assign role failed</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="UnknownPrintingError" xml:space="preserve">
+    <value>Unknown Printing Error</value>
+  </data>
+  <data name="InvalidParameter" xml:space="preserve">
+    <value>Invalid Parameter</value>
+  </data>
+  <data name="OpenError" xml:space="preserve">
+    <value>Open Error</value>
+  </data>
+  <data name="ConnectionError" xml:space="preserve">
+    <value>Connection Error</value>
+  </data>
+  <data name="TimeoutError" xml:space="preserve">
+    <value>Timeout Error</value>
+  </data>
+  <data name="MemoryAllocateError" xml:space="preserve">
+    <value>Memory Allocate Error</value>
+  </data>
+  <data name="IllegalError" xml:space="preserve">
+    <value>Illegal Error</value>
+  </data>
+  <data name="ProcessingError" xml:space="preserve">
+    <value>Processing Error</value>
+  </data>
+  <data name="PrinterOffiline" xml:space="preserve">
+    <value>Printer Offiline</value>
+  </data>
+  <data name="UnsupportedModel" xml:space="preserve">
+    <value>Unsupported Model</value>
+  </data>
+  <data name="SlipPrintingFailure" xml:space="preserve">
+    <value>Slip Printing Failure</value>
+  </data>
+  <data name="ChangeBetLevel" xml:space="preserve">
+    <value>Change Bet Level</value>
+  </data>
+  <data name="ThisScreenIsForSupportPurposes" xml:space="preserve">
+    <value>This screen is for support purposes</value>
+  </data>
+  <data name="MinimumBet" xml:space="preserve">
+    <value>Minimum Bet</value>
+  </data>
+  <data name="MaximumBet" xml:space="preserve">
+    <value>Maximum Bet</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="MinimumBetSingleNumbers" xml:space="preserve">
+    <value>Minimum Bet Single Numbers</value>
+  </data>
+  <data name="MaximumBetSingleNumbers" xml:space="preserve">
+    <value>Maximum Bet Single Numbers</value>
+  </data>
+  <data name="BetDifferential" xml:space="preserve">
+    <value>Bet Differential</value>
+  </data>
+  <data name="MinBetHigherThanPlayerBets" xml:space="preserve">
+    <value>The minimum bet is higher than the existing player bets. Continue?</value>
+  </data>
+  <data name="NoTableOpenerSlip" xml:space="preserve">
+    <value>No table opener slip to print.</value>
+  </data>
+  <data name="NoLastClosingSlip" xml:space="preserve">
+    <value>No last closing slip to print.</value>
+  </data>
+  <data name="PrintingClosingSlip" xml:space="preserve">
+    <value>Printing closing slip</value>
+  </data>
+  <data name="OpeningTable" xml:space="preserve">
+    <value>Opening table</value>
+  </data>
+  <data name="TableAlreadySuspended" xml:space="preserve">
+    <value>Table Is Already Suspended</value>
+  </data>
+  <data name="TableSuspensionAlreadyLifted" xml:space="preserve">
+    <value>Table Suspension Has Already Been Lifted</value>
+  </data>
+  <data name="CompleteorCancelBigChipAssigningFirst" xml:space="preserve">
+    <value>Complete or Cancel Big Chip Assigning First.</value>
+  </data>
+  <data name="DoYouWantToLiftTableSuspension" xml:space="preserve">
+    <value>Do You Want To Lift The Current Table Suspension?</value>
+  </data>
+  <data name="NoUserLoggedOn" xml:space="preserve">
+    <value>No User is Logged On!</value>
+  </data>
+  <data name="TableSuspended" xml:space="preserve">
+    <value>Table Suspended</value>
+  </data>
+  <data name="NotallEmployeesareloggedonPleaselogthemonFirst" xml:space="preserve">
+    <value>Not all Employees are logged on, Please log them on First</value>
+  </data>
+  <data name="TableClosingInProgress" xml:space="preserve">
+    <value>Table Closing In Progress</value>
+  </data>
+  <data name="TableisClosedOpenTableFirst" xml:space="preserve">
+    <value>Table is Closed, Please Open Table First</value>
+  </data>
+  <data name="TableisCurrentlySuspended" xml:space="preserve">
+    <value>Table is Currently Suspended.</value>
+  </data>
+  <data name="RemoveEmployeeFromRole" xml:space="preserve">
+    <value>Remove employee {0} from role {1} ?</value>
+  </data>
+  <data name="ChooseFromanOptionBelow" xml:space="preserve">
+    <value>Choose an Option From Below</value>
+  </data>
+  <data name="CloseTheTable" xml:space="preserve">
+    <value>Close The Table</value>
+  </data>
+  <data name="RollTheTable" xml:space="preserve">
+    <value>Roll The Table</value>
+  </data>
+  <data name="SuspendTheTable" xml:space="preserve">
+    <value>Suspend The Table</value>
+  </data>
+  <data name="NoCardDataCaptured" xml:space="preserve">
+    <value>No card data was captured, please try again or check the card is not blank</value>
+  </data>
+  <data name="LogoutUser" xml:space="preserve">
+    <value>Logout User</value>
+  </data>
+  <data name="RemoveRole" xml:space="preserve">
+    <value>Remove Role?</value>
+  </data>
+  <data name="CardError" xml:space="preserve">
+    <value>Card Error</value>
+  </data>
+  <data name="NoCardDataCapturedTryAgain" xml:space="preserve">
+    <value>No card data was captured, please try again or check the card is not blank</value>
+  </data>
+  <data name="SelectEmployeeRole" xml:space="preserve">
+    <value>Select Employee Role</value>
+  </data>
+  <data name="PleaseSelectAnEmployeeRole" xml:space="preserve">
+    <value>Please select an employee role</value>
+  </data>
+  <data name="PageDoesNotSupportPopups" xml:space="preserve">
+    <value>Current page does not support popups.</value>
+  </data>
+  <data name="NoPlayersLoggedOn" xml:space="preserve">
+    <value>No Players Logged On</value>
+  </data>
+  <data name="LogOffAllPlayers" xml:space="preserve">
+    <value>Log Off All Players</value>
+  </data>
+  <data name="SureYouWantToLogOffAllPlayers" xml:space="preserve">
+    <value>Are you sure you want to Log off All Players?</value>
+  </data>
+  <data name="SubmitPayoutsBeforeLoggingOffAllPlayers" xml:space="preserve">
+    <value>Please submit payouts before logging off all players</value>
+  </data>
+  <data name="SubmitPayoutsBeforeVoidingPlayerSession" xml:space="preserve">
+    <value>Please submit payouts before voiding a playersession</value>
+  </data>
+  <data name="LoggingOffAllPlayers" xml:space="preserve">
+    <value>Logging Off All Players</value>
+  </data>
+  <data name="LoggingOff" xml:space="preserve">
+    <value>Logging Off</value>
+  </data>
+  <data name="TableDrop" xml:space="preserve">
+    <value>Table Drop</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="LoggingIn" xml:space="preserve">
+    <value>Logging In</value>
+  </data>
+  <data name="RetreivingTableAndPlayerData" xml:space="preserve">
+    <value>Retreiving Table &amp; Player Data...</value>
+  </data>
+  <data name="LoggingOut" xml:space="preserve">
+    <value>Logging Out</value>
+  </data>
+  <data name="RemovingEmployee" xml:space="preserve">
+    <value>Removing Employee</value>
+  </data>
+  <data name="AddOrMove" xml:space="preserve">
+    <value>Add or Move</value>
+  </data>
+  <data name="WouldYouLikeToAddOrMovePosition" xml:space="preserve">
+    <value>Would you like to add or move the player to this position?</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="CustomerNo" xml:space="preserve">
+    <value>Customer No</value>
+  </data>
+  <data name="Drop" xml:space="preserve">
+    <value>Drop</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Turnover</value>
+  </data>
+  <data name="WinLoss" xml:space="preserve">
+    <value>Win/Loss</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="PlayerImage" xml:space="preserve">
+    <value>Player Image</value>
+  </data>
+  <data name="TimeAdjust" xml:space="preserve">
+    <value>Time Adjust</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="Mins" xml:space="preserve">
+    <value>Mins</value>
+  </data>
+  <data name="ChipsOut" xml:space="preserve">
+    <value>Chips Out</value>
+  </data>
+  <data name="ChipsIn" xml:space="preserve">
+    <value>Chips In</value>
+  </data>
+  <data name="ChipColours" xml:space="preserve">
+    <value>Chip Colours</value>
+  </data>
+  <data name="AverageBet" xml:space="preserve">
+    <value>Average Bet</value>
+  </data>
+  <data name="WeightedAverageMustBeGreaterThanZero" xml:space="preserve">
+    <value>Weighted Average Must Be Greater Than Zero, If It Had A Previous Value Greater Than Zero</value>
+  </data>
+  <data name="WeightedAverageTooLarge" xml:space="preserve">
+    <value>Weighted Average Bet Value Is Too Large</value>
+  </data>
+  <data name="PlayerAverageBetHigherThanTableMax" xml:space="preserve">
+    <value>Player Average Bet Is Higher Than The Table Maximum. Continue?</value>
+  </data>
+  <data name="PlayerAverageBetLowerThanTableMin" xml:space="preserve">
+    <value>Player Average Bet Is Lower Than The Table Minimum. Continue?</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="AssetDrop" xml:space="preserve">
+    <value>Asset Drop</value>
+  </data>
+  <data name="Smash" xml:space="preserve">
+    <value>Smash</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="Plaque" xml:space="preserve">
+    <value>Plaque</value>
+  </data>
+  <data name="NoDropHasBeenEntered" xml:space="preserve">
+    <value>No Drop Has Been Entered</value>
+  </data>
+  <data name="PlayerIsPaused" xml:space="preserve">
+    <value>Player is Paused</value>
+  </data>
+  <data name="UpdateTableFloat" xml:space="preserve">
+    <value>Update Table Float</value>
+  </data>
+  <data name="Float" xml:space="preserve">
+    <value>Float</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="Fill" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="ReenterFloat" xml:space="preserve">
+    <value>ReEnter Float</value>
+  </data>
+  <data name="TableClosedWantToReenterFloat" xml:space="preserve">
+    <value>Table is closed, do you want to reenter the float?</value>
+  </data>
+  <data name="TableEstimatesNotInOperation" xml:space="preserve">
+    <value>Table estimates are not in operation</value>
+  </data>
+  <data name="Requests" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="CreditRequest" xml:space="preserve">
+    <value>Credit Request</value>
+  </data>
+  <data name="FillRequest" xml:space="preserve">
+    <value>Fill Request</value>
+  </data>
+  <data name="ClosingTable" xml:space="preserve">
+    <value>Closing Table</value>
+  </data>
+  <data name="UpdatingClosing" xml:space="preserve">
+    <value>Updating Closing</value>
+  </data>
+  <data name="CreatingClosingTableRequest" xml:space="preserve">
+    <value>Creating Closing Table Request</value>
+  </data>
+  <data name="RollingTable" xml:space="preserve">
+    <value>Rolling Table</value>
+  </data>
+  <data name="EnterDropValue" xml:space="preserve">
+    <value>Enter Drop Value</value>
+  </data>
+  <data name="AddDrop" xml:space="preserve">
+    <value>Add Drop</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="ThisSession" xml:space="preserve">
+    <value>This Sessions</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="TapToAddUnknown" xml:space="preserve">
+    <value>Tap to add unknown</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="PlayerSearch" xml:space="preserve">
+    <value>Player Search</value>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="BasicSearch" xml:space="preserve">
+    <value>Basic Search</value>
+  </data>
+  <data name="VisitedToday" xml:space="preserve">
+    <value>Visited-Today</value>
+  </data>
+  <data name="AnyTableToday" xml:space="preserve">
+    <value>Any Table-Today</value>
+  </data>
+  <data name="GameTypeToday" xml:space="preserve">
+    <value>Game Type-Today</value>
+  </data>
+  <data name="ThisTableToday" xml:space="preserve">
+    <value>This Table-Today</value>
+  </data>
+  <data name="VisitedMinsAgo" xml:space="preserve">
+    <value>Visited-Mins Ago</value>
+  </data>
+  <data name="UnknownPlayer" xml:space="preserve">
+    <value>Unknown Player</value>
+  </data>
+  <data name="CardNumber" xml:space="preserve">
+    <value>Card Number</value>
+  </data>
+  <data name="CustomerNumber" xml:space="preserve">
+    <value>Customer Number</value>
+  </data>
+  <data name="VisitedInLastXMinutes" xml:space="preserve">
+    <value>Visited In Last X Minutes</value>
+  </data>
+  <data name="Forename" xml:space="preserve">
+    <value>Forename</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="CardHash" xml:space="preserve">
+    <value>Card#</value>
+  </data>
+  <data name="CustomerHash" xml:space="preserve">
+    <value>Customer#</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>Date-Of-Birth</value>
+  </data>
+  <data name="RoomNumber" xml:space="preserve">
+    <value>Room-Number</value>
+  </data>
+  <data name="AgeUnder30" xml:space="preserve">
+    <value>Age-Under-30</value>
+  </data>
+  <data name="Age31To40" xml:space="preserve">
+    <value>Age-31-to-40</value>
+  </data>
+  <data name="AgeOver40" xml:space="preserve">
+    <value>Age-Over-40</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="EnterAValue" xml:space="preserve">
+    <value>Enter a value</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="EnterText" xml:space="preserve">
+    <value>Enter Text</value>
+  </data>
+  <data name="SelectADate" xml:space="preserve">
+    <value>Select a date</value>
+  </data>
+  <data name="PleaseEnterACardNumber" xml:space="preserve">
+    <value>Please enter a Card Number</value>
+  </data>
+  <data name="PleaseEnterACustomerNumber" xml:space="preserve">
+    <value>Please enter a Customer Number</value>
+  </data>
+  <data name="PleaseEnterAVisitedInLastXMinutes" xml:space="preserve">
+    <value>Please enter a Visited In Last X Minutes</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="NamedUnknowns" xml:space="preserve">
+    <value>Named Unknowns</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="EnterForename" xml:space="preserve">
+    <value>Enter Forename</value>
+  </data>
+  <data name="EnterSurname" xml:space="preserve">
+    <value>Enter Surname</value>
+  </data>
+  <data name="MaxActivePlayerPositionGreaterThanGridSize" xml:space="preserve">
+    <value>Can't change grid dimensions. Max active player position is {0}, greater than grid dimensions.</value>
+  </data>
+  <data name="MultiRole" xml:space="preserve">
+    <value>Multi Role</value>
+  </data>
+  <data name="CurrentUser" xml:space="preserve">
+    <value>Current User</value>
+  </data>
+  <data name="MultiRoleTableMoreThanOneRoleSelected" xml:space="preserve">
+    <value>Table {0} has more than one role being selected. More than one role is not allowed.</value>
+  </data>
+  <data name="TableOnyHasPositionsAvailable" xml:space="preserve">
+    <value>Table Only Has {0} Positions Available</value>
+  </data>
+  <data name="Stake" xml:space="preserve">
+    <value>Stake</value>
+  </data>
+  <data name="Payout" xml:space="preserve">
+    <value>Payout</value>
+  </data>
+  <data name="LastPayout" xml:space="preserve">
+    <value>Last Payout</value>
+  </data>
+  <data name="EnterAmount" xml:space="preserve">
+    <value>Enter Amount</value>
+  </data>
+  <data name="SubmitPayouts" xml:space="preserve">
+    <value>Submit Payouts</value>
+  </data>
+  <data name="PersonalDetails" xml:space="preserve">
+    <value>PERSONAL DETAILS</value>
+  </data>
+  <data name="TableToday" xml:space="preserve">
+    <value>TABLE TODAY</value>
+  </data>
+  <data name="Earned" xml:space="preserve">
+    <value>Earned</value>
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="CurrentSession" xml:space="preserve">
+    <value>CURRENT SESSION</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="TimePlayed" xml:space="preserve">
+    <value>Time Played</value>
+  </data>
+  <data name="WeightedAverage" xml:space="preserve">
+    <value>Weighted Average</value>
+  </data>
+  <data name="PointsEarned" xml:space="preserve">
+    <value>Points Earned</value>
+  </data>
+  <data name="InitialChipsHeld" xml:space="preserve">
+    <value>Initial Chips Held</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="Preferences" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="EnterUnknownPlayer" xml:space="preserve">
+    <value>Enter Unknown Player</value>
+  </data>
+  <data name="NoUnknownPlayerNameEntered" xml:space="preserve">
+    <value>No Unknown Player Name Entered</value>
+  </data>
+  <data name="PlayerSessionIsInvalid" xml:space="preserve">
+    <value>Player Session is Invalid</value>
+  </data>
+  <data name="EnterTipsValue" xml:space="preserve">
+    <value>Enter Tips Value</value>
+  </data>
+  <data name="EnterTipsGreaterThanZero" xml:space="preserve">
+    <value>Please enter a value greater than 0</value>
+  </data>
+  <data name="TableEstimate" xml:space="preserve">
+    <value>TABLE ESTIMATE</value>
+  </data>
+  <data name="OpeningFloat" xml:space="preserve">
+    <value>Opening Float</value>
+  </data>
+  <data name="CurrentFloat" xml:space="preserve">
+    <value>Current Float</value>
+  </data>
+  <data name="NetFills" xml:space="preserve">
+    <value>Net Fills</value>
+  </data>
+  <data name="TableResultFromRating" xml:space="preserve">
+    <value>Table Result (from rating)</value>
+  </data>
+  <data name="TableResult" xml:space="preserve">
+    <value>Table Result</value>
+  </data>
+  <data name="HoldPercent" xml:space="preserve">
+    <value>Hold %</value>
+  </data>
+  <data name="BetLevels" xml:space="preserve">
+    <value>BET LEVELS</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="HeadCountNotAvailableCheckGamingDate" xml:space="preserve">
+    <value>Head count not available, please check the gaming day.</value>
+  </data>
+  <data name="EnterHeadCount" xml:space="preserve">
+    <value>Enter Head Count</value>
+  </data>
+  <data name="HeadCounts" xml:space="preserve">
+    <value>Head Counts</value>
+  </data>
+  <data name="EnterOddsBonus" xml:space="preserve">
+    <value>Enter Odds Bonus</value>
+  </data>
+  <data name="EnterJunketBonus" xml:space="preserve">
+    <value>Enter Junket Bonus</value>
+  </data>
+  <data name="EnterJunketReturn" xml:space="preserve">
+    <value>Enter Junket Return</value>
+  </data>
+  <data name="CannotProcessBonusForUnknownPlayer" xml:space="preserve">
+    <value>Cannot Process Bonus for Unknown Player</value>
+  </data>
+  <data name="CannotProcessChipReturnForUnknownPlayer" xml:space="preserve">
+    <value>Cannot Process Chip Return for Unknown Player</value>
+  </data>
+  <data name="CannotProcessRollingTransactionsForUnknownPlayer" xml:space="preserve">
+    <value>Cannot Process Rolling Transactions for Unknown Player</value>
+  </data>
+  <data name="CannotVoidCashlessTransferForUnknownPlayer" xml:space="preserve">
+    <value>Cannot Void Cashless Transfer for Unknown Player</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="RefreshingTheData" xml:space="preserve">
+    <value>Refreshing the data</value>
+  </data>
+  <data name="EnterJunketRolling" xml:space="preserve">
+    <value>Enter Rolling Junket</value>
+  </data>
+  <data name="ProcessCashlessTransaction" xml:space="preserve">
+    <value>Process Cashless Transaction</value>
+  </data>
+  <data name="AmountToTransfer" xml:space="preserve">
+    <value>Amount To Transfer</value>
+  </data>
+  <data name="CardNotValidatedSwipeToValidate" xml:space="preserve">
+    <value>Card not validated - Swipe to validate</value>
+  </data>
+  <data name="CardValidated" xml:space="preserve">
+    <value>Card validated</value>
+  </data>
+  <data name="PleaseEnterAmountGreaterThanZero" xml:space="preserve">
+    <value>Please enter an amount greater than zero</value>
+  </data>
+  <data name="CannotProcessCashlessTransactionAgainstEmployee" xml:space="preserve">
+    <value>Cannot Process a Cashless Transaction Against an Employee</value>
+  </data>
+  <data name="CannotProcessCashlessTransactionAgainstUnknownPlayer" xml:space="preserve">
+    <value>Cannot Process a Cashless Transaction Against an Unknown Player</value>
+  </data>
+  <data name="AlreadyHaveCustomerValidatedOnCashlessTransferScreen" xml:space="preserve">
+    <value>You already have a customer validated on this screen, please complete the current action or close the screen and start again.</value>
+  </data>
+  <data name="CustomerNotLoggedOnPleaseAddThenProcessCashlessTransaction" xml:space="preserve">
+    <value>This Customer Is Not Logged On, Please Add Them As a Player To The Table, Then Process the Cashless Transaction Again.</value>
+  </data>
+  <data name="PleaseSwipePlayerCardToValidateAccountProcessCashlessTransfer" xml:space="preserve">
+    <value>Please Swipe Player Card to Validate Account and Process Cashless Transfer </value>
+  </data>
+  <data name="SelectedPlayerDoesNotMatchPlayerCashlessTranactionWasProcessedFor" xml:space="preserve">
+    <value>The Selected Player Does Not Match The Player The Cashless Tranaction Was Processed For</value>
+  </data>
+  <data name="ThisActionRequiresAKnownPlayer" xml:space="preserve">
+    <value>This action requires a known player</value>
+  </data>
+  <data name="ProcessCPV" xml:space="preserve">
+    <value>Process CPV</value>
+  </data>
+  <data name="EnterCPVCode" xml:space="preserve">
+    <value>Enter CPV Code</value>
+  </data>
+  <data name="EnterCPVReference" xml:space="preserve">
+    <value>Enter CPV Reference</value>
+  </data>
+  <data name="FlipTable" xml:space="preserve">
+    <value>Flip Table</value>
+  </data>
+  <data name="PlayersStillLoggedOntoTable" xml:space="preserve">
+    <value>There are players still logged onto the table.</value>
+  </data>
+  <data name="ClosingFloat" xml:space="preserve">
+    <value>Closing Float</value>
+  </data>
+  <data name="SelectTable" xml:space="preserve">
+    <value>Select Table</value>
+  </data>
+  <data name="NoTableSelectedToFlipTo" xml:space="preserve">
+    <value>No Table To Flip To Has Been Selected</value>
+  </data>
+  <data name="TransactionCancelledByTheUser" xml:space="preserve">
+    <value>Transaction cancelled by the user</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Not connected</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Sending...</value>
+  </data>
+  <data name="Sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="RequestingPIN" xml:space="preserve">
+    <value>Requesting PIN</value>
+  </data>
+  <data name="IncorrectPIN" xml:space="preserve">
+    <value>INCORRECT PIN</value>
+  </data>
+  <data name="PinAccepted" xml:space="preserve">
+    <value>PIN ACCEPTED</value>
+  </data>
+  <data name="PinTerminalIPAddressNotSet" xml:space="preserve">
+    <value>Pin Terminal IPAddress not set. Please set and restart the application.</value>
+  </data>
+  <data name="PinTerminalListeningPortNotSet" xml:space="preserve">
+    <value>Pin Terminal Listening Port not set. Please set and restart the application.</value>
+  </data>
+  <data name="RollingTransactions" xml:space="preserve">
+    <value>Rolling Transactions</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CannotViewRollingTransactionsForUnknownPlayer" xml:space="preserve">
+    <value>Cannot View Rolling Transactions for Unknown Player</value>
+  </data>
+  <data name="CannotViewTripSummaryForUnknownPlayer" xml:space="preserve">
+    <value>Cannot View Trip Summary for Unknown Player</value>
+  </data>
+  <data name="Void" xml:space="preserve">
+    <value>Void</value>
+  </data>
+  <data name="Trip" xml:space="preserve">
+    <value>Trip</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="BuyinRolling" xml:space="preserve">
+    <value>Buyin / Rolling</value>
+  </data>
+  <data name="Buyin" xml:space="preserve">
+    <value>Buyin</value>
+  </data>
+  <data name="BuyinCommission" xml:space="preserve">
+    <value>Buyin Commission</value>
+  </data>
+  <data name="Rolling" xml:space="preserve">
+    <value>Rolling</value>
+  </data>
+  <data name="TotalRolling" xml:space="preserve">
+    <value>Total Rolling</value>
+  </data>
+  <data name="RollingCommission" xml:space="preserve">
+    <value>Rolling Commission</value>
+  </data>
+  <data name="RollingPayment" xml:space="preserve">
+    <value>Rolling Payment</value>
+  </data>
+  <data name="TotalLoss" xml:space="preserve">
+    <value>Total Loss</value>
+  </data>
+  <data name="BaccaratCommissionPercentage" xml:space="preserve">
+    <value>Baccarat Commission %</value>
+  </data>
+  <data name="RouletteCommissionPercentage" xml:space="preserve">
+    <value>Roulette Commission %</value>
+  </data>
+  <data name="ThreeCardPokerCommissionPercentage" xml:space="preserve">
+    <value>Three Card Poker Commission %</value>
+  </data>
+  <data name="RollingCommissionPercentage" xml:space="preserve">
+    <value>Rolling Commission %</value>
+  </data>
+  <data name="LossCommissionPercentage" xml:space="preserve">
+    <value>Loss Commission %</value>
+  </data>
+  <data name="BonusWinnings" xml:space="preserve">
+    <value>Bonus Winnings</value>
+  </data>
+  <data name="LessWinningsPaidAtTable" xml:space="preserve">
+    <value>Less Winnings Paid at Table</value>
+  </data>
+  <data name="WinningsToBePaid" xml:space="preserve">
+    <value>Winnings To Be Paid</value>
+  </data>
+  <data name="LossCommission" xml:space="preserve">
+    <value>Loss Commission</value>
+  </data>
+  <data name="TopupPayment" xml:space="preserve">
+    <value>Topup Payment</value>
+  </data>
+  <data name="BonusExpenses" xml:space="preserve">
+    <value>Bonus Expenses</value>
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>Commission</value>
+  </data>
+  <data name="TotalCommission" xml:space="preserve">
+    <value>Total Commission</value>
+  </data>
+  <data name="LessExpenses" xml:space="preserve">
+    <value>Less Expenses</value>
+  </data>
+  <data name="AdvancedSettlements" xml:space="preserve">
+    <value>Advanced Settlements</value>
+  </data>
+  <data name="SettlementAmount" xml:space="preserve">
+    <value>Settlement Amount</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>Add Comment</value>
+  </data>
+  <data name="DeckColourChange" xml:space="preserve">
+    <value>Deck Colour Change</value>
+  </data>
+  <data name="DiceReference" xml:space="preserve">
+    <value>Dice Reference</value>
+  </data>
+  <data name="ViewColourCountCheck" xml:space="preserve">
+    <value>View Colour Count Check</value>
+  </data>
+  <data name="OpeningColourCountCheck" xml:space="preserve">
+    <value>Opening Colour Count Check</value>
+  </data>
+  <data name="ClosingColourCountCheck" xml:space="preserve">
+    <value>Closing Colour Count Check</value>
+  </data>
+  <data name="ShoeReference" xml:space="preserve">
+    <value>Shoe Reference</value>
+  </data>
+  <data name="ViewAuditItems" xml:space="preserve">
+    <value>View Audit Items</value>
+  </data>
+  <data name="ViewComments" xml:space="preserve">
+    <value>View Comments</value>
+  </data>
+  <data name="DateByTime" xml:space="preserve">
+    <value>Date/Time</value>
+  </data>
+  <data name="EnterDeckColour" xml:space="preserve">
+    <value>Enter Deck Colour</value>
+  </data>
+  <data name="EnterDiceReference" xml:space="preserve">
+    <value>Enter Dice Reference</value>
+  </data>
+  <data name="EnterShoeReference" xml:space="preserve">
+    <value>Enter Shoe Reference</value>
+  </data>
+  <data name="PleaseEnterSomeText" xml:space="preserve">
+    <value>Please Enter Some Text</value>
+  </data>
+  <data name="Audits" xml:space="preserve">
+    <value>Audits</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="NoCommentsCurrentlyExistsForThisTable" xml:space="preserve">
+    <value>No Comments Currently Exist For This Table</value>
+  </data>
+  <data name="NoActionAuditItemsCurrentlyExistsForThisTable" xml:space="preserve">
+    <value>No Action Audit Items Currently Exist For This Table</value>
+  </data>
+  <data name="RouletteClosingColourCheck" xml:space="preserve">
+    <value>Roulette Closing Colour Check</value>
+  </data>
+  <data name="RouletteOpeningColourCheck" xml:space="preserve">
+    <value>Roulette Opening Colour Check</value>
+  </data>
+  <data name="RouletteColourCheck" xml:space="preserve">
+    <value>Roulette Colour Check</value>
+  </data>
+  <data name="PreviousClosing" xml:space="preserve">
+    <value>Previous Closing</value>
+  </data>
+  <data name="Opening" xml:space="preserve">
+    <value>Opening</value>
+  </data>
+  <data name="CurrentClosing" xml:space="preserve">
+    <value>Current Closing</value>
+  </data>
+  <data name="Variance" xml:space="preserve">
+    <value>Variance</value>
+  </data>
+  <data name="TripSummary" xml:space="preserve">
+    <value>Trip Summary</value>
+  </data>
+  <data name="TableAudit" xml:space="preserve">
+    <value>Table Audit</value>
+  </data>
+  <data name="TableDoesNotSupportMultipleLayouts" xml:space="preserve">
+    <value>This Table Does Not Support Mutiple Layouts</value>
+  </data>
+  <data name="ChangeGame" xml:space="preserve">
+    <value>Change Game</value>
+  </data>
+  <data name="EstimatedDrop" xml:space="preserve">
+    <value>Estimated Drop</value>
+  </data>
+  <data name="SelectAGameToChangeTo" xml:space="preserve">
+    <value>Select a game to change to</value>
+  </data>
+  <data name="SkillLevelNotSelected" xml:space="preserve">
+    <value>Select a skill level to set to the player</value>
+  </data>
+  <data name="ChangeSkillLevel" xml:space="preserve">
+    <value>Change Skill Level</value>
+  </data>
+  <data name="ProgressiveBet" xml:space="preserve">
+    <value>Progressive Bet</value>
+  </data>
+  <data name="ProgressivePayout" xml:space="preserve">
+    <value>Progressive Payout</value>
+  </data>
+  <data name="InUse" xml:space="preserve">
+    <value>In use</value>
+  </data>
+  <data name="EnabledForCounting" xml:space="preserve">
+    <value>Enabled for counting</value>
+  </data>
+  <data name="NotCounting" xml:space="preserve">
+    <value>Not counting</value>
+  </data>
+  <data name="AssignPlayer" xml:space="preserve">
+    <value>Assign Player</value>
+  </data>
+  <data name="DropNotSelected" xml:space="preserve">
+    <value>Drop not selected</value>
+  </data>
+  <data name="ThisActionRequiresASessionPlayer" xml:space="preserve">
+    <value>This Action Requires A Session Player</value>
+  </data>
+  <data name="UntrackedDropOnly" xml:space="preserve">
+    <value>Untracked Drop Only</value>
+  </data>
+  <data name="BluetoothCardReaders" xml:space="preserve">
+    <value>Bluetooth Card Readers</value>
+  </data>
+  <data name="CardReaders" xml:space="preserve">
+    <value>Card Readers</value>
+  </data>
+  <data name="ThisCardReaderNeedsPairing" xml:space="preserve">
+    <value>This card reader needs pairing. Please place the card reader in to pairing mode and try again.</value>
+  </data>
+  <data name="InactivePlayers" xml:space="preserve">
+    <value>Inactive Players</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="StillPlaying" xml:space="preserve">
+    <value>Still Playing</value>
+  </data>
+  <data name="CloseRating" xml:space="preserve">
+    <value>Close Rating</value>
+  </data>
+  <data name="NoInactivePlayerSessionSelected" xml:space="preserve">
+    <value>No inactive player session is selected.</value>
+  </data>
+  <data name="CustomerStillPlaying" xml:space="preserve">
+    <value>Customer Still Playing</value>
+  </data>
+  <data name="IsCustomerStillPlaying" xml:space="preserve">
+    <value>Is '{0}' still playing?</value>
+  </data>
+  <data name="ClosePlayerRating" xml:space="preserve">
+    <value>Close player rating?</value>
+  </data>
+  <data name="AddBet" xml:space="preserve">
+    <value>Add Bet</value>
+  </data>
+  <data name="ClearBet" xml:space="preserve">
+    <value>Clear Bet</value>
+  </data>
+  <data name="NoBetAvailableToRemove" xml:space="preserve">
+    <value>No Bet Available To Remove</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Hands" xml:space="preserve">
+    <value>Hands</value>
+  </data>
+  <data name="Banker" xml:space="preserve">
+    <value>Banker</value>
+  </data>
+  <data name="Tie" xml:space="preserve">
+    <value>Tie</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Pairs" xml:space="preserve">
+    <value>Pairs</value>
+  </data>
+  <data name="PlayerPair" xml:space="preserve">
+    <value>Player Pair</value>
+  </data>
+  <data name="BankerPair" xml:space="preserve">
+    <value>Banker Pair</value>
+  </data>
+  <data name="NaturalNine" xml:space="preserve">
+    <value>Natural Nine</value>
+  </data>
+  <data name="PlayerNaturalNine" xml:space="preserve">
+    <value>Player Natural Nine</value>
+  </data>
+  <data name="BankerNaturalNine" xml:space="preserve">
+    <value>Banker Natural Nine</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="NoPlayerRatingsAreAvailableForBetEntry" xml:space="preserve">
+    <value>No player ratings are available for bet entry</value>
+  </data>
+  <data name="YouMustSelectAGameOutcome" xml:space="preserve">
+    <value>You mst select a game outcome</value>
+  </data>
+  <data name="NoBetsEnteredForCurrentHand" xml:space="preserve">
+    <value>No bets have been entered for the current hand</value>
+  </data>
+  <data name="NoBetsEnteredToSubmit" xml:space="preserve">
+    <value>No bets have been entered to submit</value>
+  </data>
+  <data name="SubmitBets" xml:space="preserve">
+    <value>Submit Bets</value>
+  </data>
+  <data name="SubmittingBets" xml:space="preserve">
+    <value>Submitting bets...</value>
+  </data>
+  <data name="ChipperSetup" xml:space="preserve">
+    <value>Chipper Setup</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="InvalidEmptyChipperLayoutColumn" xml:space="preserve">
+    <value>Invalid/empty chipper layout columns found</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="SelectChipColourOrAsset" xml:space="preserve">
+    <value>Select a chip colour or an asset from below</value>
+  </data>
+  <data name="AreYouSureToClearContents" xml:space="preserve">
+    <value>Are you sure you want to clear the contents?</value>
+  </data>
+  <data name="ScratchPads" xml:space="preserve">
+    <value>ScratchPads</value>
+  </data>
+  <data name="EnterServerAddressURL" xml:space="preserve">
+    <value>Enter Server Address URL</value>
+  </data>
+  <data name="EmptyServerAddressURL" xml:space="preserve">
+    <value>Server Address URL is empty</value>
+  </data>
+  <data name="SuspendChipperCounting" xml:space="preserve">
+    <value>Suspend Chipper Counting?</value>
+  </data>
+  <data name="ResumeChipperCounting" xml:space="preserve">
+    <value>Resume Chipper Counting?</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="MultiTableMode" xml:space="preserve">
+    <value>Multi Table Mode</value>
+  </data>
+  <data name="PINTerminalIPAddress" xml:space="preserve">
+    <value>PIN Terminal IP Address</value>
+  </data>
+  <data name="PINTerminalPort" xml:space="preserve">
+    <value>PIN Terminal Port</value>
+  </data>
+  <data name="FloatEntriesAreNotBeingBrokenDownByAsset" xml:space="preserve">
+    <value>Float Entries are not being broken down by Asset, use Estimate Entry Screen</value>
+  </data>
+  <data name="ClickerDropEntryIsNotAllowedWhenRealTimeDropIsInOperation" xml:space="preserve">
+    <value>Clicker Drop Entry is Not Allowed When Real Time Drop is in Operation</value>
+  </data>
+  <data name="ClickerDrop" xml:space="preserve">
+    <value>Clicker Drop</value>
+  </data>
+  <data name="NextGame" xml:space="preserve">
+    <value>Next Game</value>
+  </data>
+  <data name="TicketScanningIsNotLicensed" xml:space="preserve">
+    <value>Ticket scanning is not licensed on this system</value>
+  </data>
+  <data name="ReadBarcodeIsNullOrEmpty" xml:space="preserve">
+    <value>Barcode read is null or empty</value>
+  </data>
+  <data name="ValidatingTicket" xml:space="preserve">
+    <value>Validating ticket</value>
+  </data>
+  <data name="RedeemTicket" xml:space="preserve">
+    <value>Redeem ticket</value>
+  </data>
+  <data name="TicketIsAssignedToCustomer" xml:space="preserve">
+    <value>This ticket is assigned to the following customer</value>
+  </data>
+  <data name="Redeem" xml:space="preserve">
+    <value>Redeem</value>
+  </data>
+  <data name="NoTicketToRedeem" xml:space="preserve">
+    <value>No ticket exists to redeem</value>
+  </data>
+  <data name="RedeemingTicket" xml:space="preserve">
+    <value>Redeeming ticket</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Change : </value>
+  </data>
+  <data name="SelectPlayerToRemoveChipsFrom" xml:space="preserve">
+    <value>Please select a customer to remove chips held from.</value>
+  </data>
+  <data name="SelectPlayerToAssignChipsTo" xml:space="preserve">
+    <value>Please select a customer to assign chips to.</value>
+  </data>
+  <data name="SelectPlayerToUpdateChipsHeld" xml:space="preserve">
+    <value>Please select a customer to update chips held.</value>
+  </data>
+  <data name="SelectPositionToAddCustomerTo" xml:space="preserve">
+    <value>Please select a position to add the customer to.</value>
+  </data>
+  <data name="SelectPlayerOrTableDropToAssignDropAgainst" xml:space="preserve">
+    <value>Please select a player to assign drop against or press Table Drop button to assign to the table.</value>
+  </data>
+  <data name="SelectSessionToVoid" xml:space="preserve">
+    <value>Please select a session to void.</value>
+  </data>
+  <data name="SelectPlayerToReceiveBonus" xml:space="preserve">
+    <value>Please select a player to receive bonus.</value>
+  </data>
+  <data name="SelectPlayerToProcessChipReturnAgainst" xml:space="preserve">
+    <value>Please select a player to process chip return against.</value>
+  </data>
+  <data name="SelectPlayerToProcessRollingTransactionAgainst" xml:space="preserve">
+    <value>Please select a player to process rolling transaction against.</value>
+  </data>
+  <data name="SelectPlayerToVoidCashlessTransfer" xml:space="preserve">
+    <value>Please select a player to void cashless transfer.</value>
+  </data>
+  <data name="SelectSessionToVoidTips" xml:space="preserve">
+    <value>Please select a session to void tips.</value>
+  </data>
+  <data name="SelectSessionToVoidLastBet" xml:space="preserve">
+    <value>Please select a session to void last bet.</value>
+  </data>
+  <data name="SelectSessionToVoidLastPayout" xml:space="preserve">
+    <value>Please select a session to void last payout.</value>
+  </data>
+  <data name="PleaseSelectANonEmptyPosition" xml:space="preserve">
+    <value>Please select a session that is not empty</value>
+  </data>
+  <data name="PleaseSelectWhereToApplyDrop" xml:space="preserve">
+    <value>Please select where to apply drop {0}</value>
+  </data>
+  <data name="PleaseSelectAPositionToAssignDrop" xml:space="preserve">
+    <value>Please select a position to assign drop</value>
+  </data>
+  <data name="RFIDConnectFailure" xml:space="preserve">
+    <value>RFID Connect Failure</value>
+  </data>
+  <data name="RFIDRemoveError" xml:space="preserve">
+    <value>RFID Remove Error</value>
+  </data>
+  <data name="ScannerConnectFailure" xml:space="preserve">
+    <value>Scanner Connect Failure</value>
+  </data>
+  <data name="SkillLevelsNotInOperation" xml:space="preserve">
+    <value>Skill levels are not in operation</value>
+  </data>
+  <data name="SkillLevelAlreadySelected" xml:space="preserve">
+    <value>Skill level already selected</value>
+  </data>
+  <data name="Session" xml:space="preserve">
+    <value>Session</value>
+  </data>
+  <data name="Payouts" xml:space="preserve">
+    <value>Payouts</value>
+  </data>
+  <data name="PlayerNotInACommissionProgram" xml:space="preserve">
+    <value>This player is not in a commission program</value>
+  </data>
+  <data name="PlayerNotAssociatedWithATrip" xml:space="preserve">
+    <value>This player is not associated with a trip</value>
+  </data>
+  <data name="RollingNotPerformedInThisTrip" xml:space="preserve">
+    <value>Rolling is not performed on this trip</value>
+  </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="DropNotEnteredInRealTimeClickerDropInOperation" xml:space="preserve">
+    <value>Drop is not entered in real time. Clicker drop is in operation</value>
+  </data>
+  <data name="ForexCurrency" xml:space="preserve">
+    <value>Forex Currency</value>
+  </data>
+  <data name="EstimateEntry" xml:space="preserve">
+    <value>Estimate Entry</value>
+  </data>
+  <data name="SelectPlayerToRedeemTicketAgainst" xml:space="preserve">
+    <value>Please select a player to redeem ticket against</value>
+  </data>
+  <data name="ServerAddressURL" xml:space="preserve">
+    <value>Server Address URL</value>
+  </data>
+  <data name="PinTerminalUsedForCashless" xml:space="preserve">
+    <value>Pin Terminal used for cashless</value>
+  </data>
+  <data name="ServerAddressChangedContinueToReinitialiseDevice" xml:space="preserve">
+    <value>Server address is changed. Continue to reinitialise the device.</value>
+  </data>
+  <data name="ServerAddressInvalid" xml:space="preserve">
+    <value>Server address is not valid.</value>
+  </data>
+  <data name="Abort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+</root>
